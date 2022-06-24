@@ -62,7 +62,8 @@
 		font-size: 15px;
 		line-height: 18px;
 		text-align: center;
-		padding: 26px 30px;
+		padding: 26px;
+		height: 105px;
 		color: $text-color;
 		background: #334247;
 		box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.087466);
@@ -94,6 +95,7 @@
 		line-height: 17px;		
 		color: $text-color;
 		border:none;
+		cursor: pointer;
 	}
 	
 	&__order-btn_business{

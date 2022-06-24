@@ -68,7 +68,8 @@
   font-size: 15px;
   line-height: 18px;
   text-align: center;
-  padding: 26px 30px;
+  padding: 26px;
+  height: 105px;
   color: white;
   background: #334247;
   box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.087466);
@@ -99,6 +100,7 @@
   line-height: 17px;
   color: white;
   border: none;
+  cursor: pointer;
 }
 .price-card__order-btn_business {
   background: #3A6BA5;
