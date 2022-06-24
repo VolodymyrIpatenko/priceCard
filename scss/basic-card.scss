@@ -55,9 +55,11 @@
 		@include price-box();
 	}
 	&__price_business{
+		@include price-box();
 		background: #3A6BA5;
 	}
 	&__price_webshop{
+		@include price-box();
 		background: #EC632A;
 	}
 	&__description {
