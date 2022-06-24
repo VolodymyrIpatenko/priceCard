@@ -58,11 +58,11 @@
   background: #5BB189;
 }
 .price-card__price_business {
-  font-weight: 700;
+  padding: 19px 110px;
   background: #3A6BA5;
 }
 .price-card__price_webshop {
-  font-weight: 700;
+  padding: 19px 110px;
   background: #EC632A;
 }
 .price-card__description {
