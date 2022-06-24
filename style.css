@@ -58,9 +58,11 @@
   background: #5BB189;
 }
 .price-card__price_business {
+  font-weight: 700;
   background: #3A6BA5;
 }
 .price-card__price_webshop {
+  font-weight: 700;
   background: #EC632A;
 }
 .price-card__description {
@@ -130,7 +132,6 @@ body {
   font-family: Montserrat, sans-serif;
   background-color: #141b1c;
   margin: 0;
-  font-weight: 700;
 }
 
 .price-tables {

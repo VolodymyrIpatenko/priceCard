@@ -54,11 +54,11 @@
 		@include price-box();
 	}
 	&__price_business{
-
+		font-weight: 700;
 		background: $second-card-color;
 	}
 	&__price_webshop{
-
+		font-weight: 700;
 		background: $third-card-color;
 	}
 	&__description {
