@@ -5,6 +5,7 @@
 	background: #334247;
 	box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.087466);
 	
+	
 	&__header {
 		position: relative;
 		padding: 33px 140px;
@@ -52,15 +53,16 @@
 	}
 	&__price {
 		@include price-box();
+		&_business{
+			@include price-box();
+			background:$second-card-color;
+		}
+		&_webshop{
+			@include price-box();
+			background: $third-card-color;
+		}
 	}
-	&__price_business{
-		padding: 19px 110px;
-		background: $second-card-color;
-	}
-	&__price_webshop{
-		padding: 19px 110px;
-		background: $third-card-color;
-	}
+	
 	&__description {
 		font-weight: 300;
 		font-size: 15px;
