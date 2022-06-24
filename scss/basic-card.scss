@@ -39,6 +39,9 @@
 		line-height: 24px;
 		color: #ffffff;
 	}
+	&__options-list{
+		margin-bottom: 39px;
+	}
 	&__price {
 		@include price-box();
 	}
@@ -78,7 +81,7 @@
 	&__order-btn{
 		width: 155px;
 		height: 40px;
-		background: #EC632A;
+		background: #5bb189;
 		border-radius: 20px;
 		font-weight: 400;
 		font-size: 14px;
@@ -86,17 +89,18 @@
 		color: #FFFFFF;
 		border:none;
 	}
+	
 	&__order-btn_business{
 		background: #3A6BA5;
 	}
 	&__order-btn_webshop{
 		background: #EC632A;
 	}
+	
 	&__order-btn-wrraper{
 		display:flex;
 		align-items: center;
 		justify-content: center;
-		margin-top: 55px;
 	}
 	
 }
