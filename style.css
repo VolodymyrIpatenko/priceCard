@@ -1,0 +1,136 @@
+.price-card {
+  background: #334247;
+  box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.087466);
+}
+.price-card__header {
+  position: relative;
+  padding: 33px 140px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.price-card__rectangle {
+  height: 147px;
+  width: 25px;
+  background: #DC3F45;
+  transform: rotate(-45deg);
+  position: absolute;
+  top: -15px;
+  right: 45px;
+}
+.price-card__rectangle-text {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #FFFFFF;
+  transform: rotate(45deg);
+}
+.price-card__title {
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 43px;
+  color: #ffffff;
+}
+.price-card__after-title {
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 24px;
+  color: #ffffff;
+}
+.price-card__price {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 105px;
+  width: 100%;
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 67px;
+  color: #FFFFFF;
+  background: #5BB189;
+}
+.price-card__price_business {
+  background: #3A6BA5;
+}
+.price-card__price_webshop {
+  background: #EC632A;
+}
+.price-card__description {
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  padding: 26px 40px;
+  color: #ffffff;
+  background: #334247;
+  box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.087466);
+}
+.price-card__option-info {
+  padding: 16px;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 18px;
+  color: white;
+}
+.price-card__option-info:nth-child(odd) {
+  background: rgba(42, 52, 56, 0.5019607843);
+}
+.price-card__icon {
+  height: 13px;
+  width: 15px;
+  margin-right: 22px;
+  color: #5bb189;
+}
+.price-card__order-btn {
+  width: 155px;
+  height: 40px;
+  background: #EC632A;
+  border-radius: 20px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #FFFFFF;
+  border: none;
+}
+.price-card__order-btn_business {
+  background: #3A6BA5;
+}
+.price-card__order-btn_webshop {
+  background: #EC632A;
+}
+.price-card__order-btn-wrraper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 55px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 132px 115px;
+  font-family: Montserrat;
+  background-color: #141b1c;
+  font-style: normal;
+}
+
+.price-tables {
+  width: 1176px;
+  height: 770px;
+  display: grid;
+  grid-template-columns: repeat(3, 380px);
+  grid-gap: 18px;
+}
+
+/*# sourceMappingURL=style.css.map */

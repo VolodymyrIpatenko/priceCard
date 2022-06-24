@@ -1,0 +1,28 @@
+ @import "basic-card.scss";
+ @import "mixin.scss";
+*{
+	box-sizing: border-box;
+}
+p,h1,h2,h3,h4,h5,h6{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height:100vh;
+	padding: 132px 115px;
+	font-family:Montserrat;
+	background-color: #141b1c;
+	font-style: normal;
+}
+.price-tables{
+	width: 1176px;
+	height: 770px;
+	display: grid;
+	grid-template-columns:repeat(3,380px);
+	grid-gap: 18px;
+	
+	}

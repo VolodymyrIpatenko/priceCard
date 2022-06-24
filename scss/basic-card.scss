@@ -1,0 +1,102 @@
+@import "mixin.scss";
+.price-card {
+	background: #334247;
+	box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.087466);
+	
+	&__header {
+		position: relative;
+		padding: 33px 140px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	&__rectangle{
+		height: 147px;
+		width: 25px;
+		background: #DC3F45;
+		transform: rotate(-45deg);
+		position: absolute;
+		top: -15px;
+		right: 45px;
+		
+	}
+	&__rectangle-text{
+		font-weight: 700;
+		font-size: 14px;
+		line-height: 17px;
+		color: #FFFFFF;
+		transform: rotate(45deg);
+	}
+	&__title {
+		font-weight: 700;
+		font-size: 35px;
+		line-height: 43px;
+		color: #ffffff;
+	}
+	&__after-title {
+		font-weight: 300;
+		font-size: 20px;
+		line-height: 24px;
+		color: #ffffff;
+	}
+	&__price {
+		@include price-box();
+	}
+	&__price_business{
+		background: #3A6BA5;
+	}
+	&__price_webshop{
+		background: #EC632A;
+	}
+	&__description {
+		font-weight: 300;
+		font-size: 15px;
+		line-height: 18px;
+		text-align: center;
+		padding: 26px 40px;
+		color: #ffffff;
+		background: #334247;
+		box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.087466);
+	}
+	&__option-info {
+		padding: 16px;
+		font-weight: 300;
+		font-size: 15px;
+		line-height: 18px;
+		color: #ffff;
+	}
+	&__option-info:nth-child(odd){
+		background: #2A343880;
+		
+	}
+	&__icon {
+		height: 13px;
+		width: 15px;
+		margin-right: 22px;
+		color: #5bb189;
+	}
+	&__order-btn{
+		width: 155px;
+		height: 40px;
+		background: #EC632A;
+		border-radius: 20px;
+		font-weight: 400;
+		font-size: 14px;
+		line-height: 17px;		
+		color: #FFFFFF;
+		border:none;
+	}
+	&__order-btn_business{
+		background: #3A6BA5;
+	}
+	&__order-btn_webshop{
+		background: #EC632A;
+	}
+	&__order-btn-wrraper{
+		display:flex;
+		align-items: center;
+		justify-content: center;
+		margin-top: 55px;
+	}
+	
+}
