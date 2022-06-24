@@ -1,4 +1,5 @@
 @import "mixin.scss";
+@import "variables.scss";
 .price-card {
 	background: #334247;
 	box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.087466);
@@ -10,34 +11,39 @@
 		flex-direction: column;
 		align-items: center;
 	}
+	
 	&__rectangle{
+		background-image: url("./images/Rectangle.png");
 		height: 147px;
 		width: 25px;
 		background: #DC3F45;
 		transform: rotate(-45deg);
 		position: absolute;
-		top: -15px;
-		right: 45px;
-		
+		top: -30px;
+		right: 30px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
 	}
 	&__rectangle-text{
+		transform:rotate(90deg);
 		font-weight: 700;
 		font-size: 14px;
 		line-height: 17px;
-		color: #FFFFFF;
-		transform: rotate(45deg);
+		text-transform: uppercase;
+		color: $text-color;
 	}
 	&__title {
 		font-weight: 700;
 		font-size: 35px;
 		line-height: 43px;
-		color: #ffffff;
+		color: $text-color;
 	}
 	&__after-title {
 		font-weight: 300;
 		font-size: 20px;
 		line-height: 24px;
-		color: #ffffff;
+		color: $text-color;
 	}
 	&__options-list{
 		margin-bottom: 39px;
@@ -56,8 +62,8 @@
 		font-size: 15px;
 		line-height: 18px;
 		text-align: center;
-		padding: 26px 40px;
-		color: #ffffff;
+		padding: 26px 30px;
+		color: $text-color;
 		background: #334247;
 		box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.087466);
 	}
@@ -66,7 +72,7 @@
 		font-weight: 300;
 		font-size: 15px;
 		line-height: 18px;
-		color: #ffff;
+		color:$text-color;
 	}
 	&__option-info:nth-child(odd){
 		background: #2A343880;
@@ -86,7 +92,7 @@
 		font-weight: 400;
 		font-size: 14px;
 		line-height: 17px;		
-		color: #FFFFFF;
+		color: $text-color;
 		border:none;
 	}
 	
