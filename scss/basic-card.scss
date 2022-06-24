@@ -1,6 +1,7 @@
 @import "mixin.scss";
 @import "variables.scss";
 .price-card {
+	overflow: hidden;
 	background: #334247;
 	box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.087466);
 	
@@ -24,6 +25,7 @@
 		display: flex;
 		align-items: center;
 		justify-content: center;
+		
 	}
 	&__rectangle-text{
 		transform:rotate(90deg);
@@ -62,8 +64,7 @@
 		font-size: 15px;
 		line-height: 18px;
 		text-align: center;
-		padding: 26px;
-		height: 105px;
+		padding:40px 26px;	
 		color: $text-color;
 		background: #334247;
 		box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.087466);
