@@ -127,9 +127,10 @@ body {
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  font-family: "Montserrat", sans-serif;
+  font-family: Montserrat, sans-serif;
   background-color: #141b1c;
   margin: 0;
+  font-weight: 700;
 }
 
 .price-tables {
