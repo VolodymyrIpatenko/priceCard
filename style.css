@@ -52,7 +52,6 @@
   align-items: center;
   justify-content: center;
   height: 105px;
-  width: 100%;
   font-weight: 700;
   font-size: 55px;
   line-height: 67px;
@@ -60,11 +59,9 @@
   background: #5BB189;
 }
 .price-card__price_business {
-  padding: 33px 108px;
   background: #3A6BA5;
 }
 .price-card__price_webshop {
-  padding: 36px 102px;
   background: #EC632A;
 }
 .price-card__description {
@@ -133,6 +130,7 @@ body {
   min-height: 100vh;
   font-family: Montserrat, sans-serif;
   background-color: #141b1c;
+  margin: 0;
 }
 
 .price-tables {
