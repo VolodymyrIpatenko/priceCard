@@ -15,7 +15,6 @@
 	}
 	
 	&__rectangle{
-		background-image: url("./images/Rectangle.png");
 		height: 147px;
 		width: 25px;
 		background: #DC3F45;
@@ -55,12 +54,12 @@
 		@include price-box();
 	}
 	&__price_business{
-		@include price-box();
-		background: #3A6BA5;
+
+		background: $second-card-color;
 	}
 	&__price_webshop{
-		@include price-box();
-		background: #EC632A;
+
+		background: $third-card-color;
 	}
 	&__description {
 		font-weight: 300;
@@ -87,12 +86,12 @@
 		margin-right: 22px;
 		height: 13px;
 		width: 15px;
-		color: #5bb189;
+		color:$first-card-color;
 	}
 	&__order-btn{
 		width: 155px;
 		height: 40px;
-		background: #5bb189;
+		background:$first-card-color;
 		border-radius: 20px;
 		font-weight: 400;
 		font-size: 14px;
@@ -103,10 +102,10 @@
 	}
 	
 	&__order-btn_business{
-		background: #3A6BA5;
+		background: $second-card-color;
 	}
 	&__order-btn_webshop{
-		background: #EC632A;
+		background: $third-card-color;
 	}
 	
 	&__order-btn-wrraper{

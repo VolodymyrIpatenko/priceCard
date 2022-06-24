@@ -12,7 +12,6 @@
   justify-content: center;
 }
 .price-card__rectangle {
-  background-image: url("./images/Rectangle.png");
   height: 147px;
   width: 25px;
   background: #DC3F45;
@@ -59,27 +58,9 @@
   background: #5BB189;
 }
 .price-card__price_business {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 105px;
-  font-weight: 700;
-  font-size: 55px;
-  line-height: 67px;
-  color: #FFFFFF;
-  background: #5BB189;
   background: #3A6BA5;
 }
 .price-card__price_webshop {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 105px;
-  font-weight: 700;
-  font-size: 55px;
-  line-height: 67px;
-  color: #FFFFFF;
-  background: #5BB189;
   background: #EC632A;
 }
 .price-card__description {
@@ -106,12 +87,12 @@
   margin-right: 22px;
   height: 13px;
   width: 15px;
-  color: #5bb189;
+  color: #5BB189;
 }
 .price-card__order-btn {
   width: 155px;
   height: 40px;
-  background: #5bb189;
+  background: #5BB189;
   border-radius: 20px;
   font-weight: 400;
   font-size: 14px;
@@ -146,7 +127,7 @@ body {
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  font-family: Montserrat, serif;
+  font-family: "Montserrat", sans-serif;
   background-color: #141b1c;
   margin: 0;
 }
