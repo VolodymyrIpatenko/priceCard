@@ -11,6 +11,7 @@
 		display: flex;
 		flex-direction: column;
 		align-items: center;
+		justify-content: center;
 	}
 	
 	&__rectangle{
@@ -54,9 +55,11 @@
 		@include price-box();
 	}
 	&__price_business{
+		padding:33px 108px;
 		background: #3A6BA5;
 	}
 	&__price_webshop{
+		padding: 36px 102px;
 		background: #EC632A;
 	}
 	&__description {
