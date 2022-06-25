@@ -56,6 +56,7 @@
 		background:$first-card-color;
 		&_business{
 			@include price-box();
+			
 			background:$second-card-color;
 		}
 		&_webshop{
