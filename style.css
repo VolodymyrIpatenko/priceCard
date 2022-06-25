@@ -58,6 +58,7 @@
   background: #5BB189;
 }
 .price-card__price_business {
+  background: #3A6BA5;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -66,10 +67,9 @@
   font-size: 55px;
   line-height: 67px;
   color: #FFFFFF;
-  background: #5BB189;
-  background: #3A6BA5;
 }
 .price-card__price_webshop {
+  background: #EC632A;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -78,8 +78,6 @@
   font-size: 55px;
   line-height: 67px;
   color: #FFFFFF;
-  background: #5BB189;
-  background: #EC632A;
 }
 .price-card__description {
   font-weight: 300;
