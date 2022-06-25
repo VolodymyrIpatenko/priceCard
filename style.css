@@ -59,6 +59,7 @@
 }
 .price-card__price_business {
   background: #3A6BA5;
+  font-weight: 700;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -70,6 +71,7 @@
 }
 .price-card__price_webshop {
   background: #EC632A;
+  font-weight: 700;
   display: flex;
   align-items: center;
   justify-content: center;

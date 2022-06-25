@@ -58,10 +58,12 @@
 	}
 	&__price_business{
 		background:$second-card-color;
+		font-weight: 700;
 		@include price-box();
 	}
 	&__price_webshop{
 		background: $third-card-color;
+		font-weight: 700;
 		@include price-box();
 	}
 	
