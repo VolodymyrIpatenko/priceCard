@@ -54,18 +54,16 @@
 	&__price {
 		@include price-box();
 		background:$first-card-color;
-		
+		&_business{
+			@include price-box();
+			background:$second-card-color;
+		}
+		&_webshop{
+			@include price-box();
+			background: $third-card-color;
+		}
 	}
-	&__price_business{
-		background:$second-card-color;
-		font-weight: 700;
-		@include price-box();
-	}
-	&__price_webshop{
-		background: $third-card-color;
-		font-weight: 700;
-		@include price-box();
-	}
+	
 	
 	&__description {
 		font-weight: 300;
