@@ -1,5 +1,6 @@
 @import "mixin.scss";
 @import "variables.scss";
+
 .price-card {
 	overflow: hidden;
 	background: #334247;
@@ -74,25 +75,35 @@
 		padding:40px 26px;	
 		color: $text-color;
 		background: #334247;
-		box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.087466);
+		
 	}
-	&__option-info {
-		padding: 16px 22px;
+	&__options-item {
+	        padding: 16px 22px;
 		font-weight: 300;
 		font-size: 15px;
 		line-height: 18px;
 		color:$text-color;
 	}
-	&__option-info:nth-child(odd){
+	
+	&__options-item:nth-child(odd){
 		background: #2A343880;
 		
 	}
 	&__icon {
+		display: inline-block;
 		margin-right: 22px;
 		height: 13px;
 		width: 15px;
 		color:$first-card-color;
+		background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png");
+		&_blue{
+			background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png");
+		}
+		&_orange{
+			background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png");
+		}
 	}
+	
 	&__order-btn{
 		width: 155px;
 		height: 40px;
