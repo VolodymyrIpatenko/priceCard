@@ -9,24 +9,25 @@ p,h1,h2,h3,h4,h5,h6{
 	margin: 0;
 }
 ul{
-	list-style: none;
 	margin: 0;
 	padding: 0;
+	list-style: none;
 }
 body{
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	margin: 0;
 	min-height:100vh;
 	font-family:Montserrat,sans-serif;
 	background-color: #141b1c;
-	margin: 0;
 
 }
 .price-tables{
-	width: 1176px;
-	height: 770px;
 	display: grid;
 	grid-template-columns:repeat(3,380px);
 	grid-gap: 18px;
+	width: 1176px;
+	height: 770px;
+	
 	}

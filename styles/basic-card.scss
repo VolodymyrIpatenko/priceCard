@@ -3,7 +3,7 @@
 
 .price-card {
 	overflow: hidden;
-	background: #334247;
+	background: $background;
 	box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.087466);
 	
 	
@@ -17,16 +17,17 @@
 	}
 	
 	&__popular-wrapper{
-		height: 147px;
-		width: 25px;
-		background: #DC3F45;
-		transform: rotate(-45deg);
 		position: absolute;
 		top: -30px;
 		right: 30px;
+		transform: rotate(-45deg);
 		display: flex;
 		align-items: center;
 		justify-content: center;
+		height: 147px;
+		width: 25px;
+		background: #DC3F45;
+		
 		&-text{
 		transform:rotate(90deg);
 		font-weight: 700;
@@ -89,11 +90,11 @@
 		text-align: center;
 		padding:40px 26px;	
 		color: $text-color;
-		background: #334247;
+		background: $background;
 		
 	}
 	&__options-list-item {
-	        padding: 16px 22px;
+	  padding: 16px 22px;
 		font-weight: 300;
 		font-size: 15px;
 		line-height: 18px;
@@ -109,11 +110,11 @@
 	&__order-btn{
 		width: 155px;
 		height: 40px;
-		background:$first-card-color;
 		border-radius: 20px;
 		font-weight: 400;
 		font-size: 14px;
-		line-height: 17px;		
+		line-height: 17px;
+		background:$first-card-color;		
 		color: $text-color;
 		border:none;
 		cursor: pointer;
