@@ -7,5 +7,5 @@ Flexbox
 Sass (Scss)
 BEM methodology
 
-Autor
+Autor:
 Volodymyr Ipatenko
