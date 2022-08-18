@@ -1,4 +1,4 @@
-# Layout Sample Project
+# Price Card Layout
 
 ### [Site link](https://volodymyripatenko.github.io/priceCard/)
 
