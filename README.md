@@ -2,7 +2,7 @@
 
 ### [Site link](https://volodymyripatenko.github.io/priceCard/)
 
-Layout supports mobile (up-to-400) and desktop (up-to-1440) versions
+Layout supports desktop 1440 version
 
 ### The tech stack is:
 
