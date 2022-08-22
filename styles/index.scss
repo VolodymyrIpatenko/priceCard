@@ -1,8 +1,6 @@
  @import "mixin.scss";
  @import "variables.scss";
  @import "basic-card.scss";
- 
-
 *{
 	box-sizing: border-box;
 }
@@ -23,7 +21,6 @@ body{
 	min-height:100vh;
 	font-family:Montserrat,sans-serif;
 	background-color: #141b1c;
-
 }
 .price-tables{
 	display: grid;
@@ -31,5 +28,4 @@ body{
 	grid-gap: 18px;
 	width: 1176px;
 	height: 770px;
-	
 	}
